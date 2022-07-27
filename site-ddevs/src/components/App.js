@@ -1,6 +1,6 @@
-import './App.css';
+import '../CSS/App.css';
 import React from 'react';
-import Logo from '../src/logo/logo_transparent.png'
+import Logo from '../../src/logo/logo_transparent.png'
 
 
 function App() {
@@ -14,8 +14,6 @@ function App() {
         </div>
       <img src={Logo} className='logo-banner' alt='logo-ddevs'/>
       </div>
-   
-
     </div>
   );
 }
