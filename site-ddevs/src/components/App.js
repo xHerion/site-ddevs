@@ -27,7 +27,7 @@ function App() {
 
       <div className='Caixasobre'>
         <div className='caixaTituloSobre'>
-          <h1 className='tituloSobre'><FontAwesomeIcon id='caretIcon' icon={faCaretDown} />Sobre nos</h1>
+          <h1 className='tituloSobre'><FontAwesomeIcon id='caretIcon' icon={faCaretDown} />Sobre nós</h1>
         </div>
         <div className='caixaTexto'>
           <p className='sobre'>
@@ -44,8 +44,9 @@ function App() {
           </p>
 
         </div>
-        <FontAwesomeIcon className='SetaIcon' icon={faCaretDown} />
+
       </div>
+  
     </div>
   );
 }
