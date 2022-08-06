@@ -17,6 +17,7 @@
   max-width: 230px;
   width: 100%;
   cursor: pointer;
+  margin-top: 5%;
 
 }
 
@@ -133,6 +134,11 @@
 
 }
 
+#espaco {
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+
 .caixaTexto {
   max-width: 70%;
   height: 100%;
@@ -209,7 +215,6 @@
 }
 
 .sections {
-
   transition: all .4s;
   font-weight: bold;
   font-size: 200px;
@@ -225,7 +230,7 @@ input {
   justify-content: center;
   align-items: center;
   display: flex;
- 
+
 }
 
 #programa1 {

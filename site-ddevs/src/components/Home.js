@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faMagnifyingGlass,
   faCaretDown,
-  faArrowUpShortWide
 } from '@fortawesome/free-solid-svg-icons'
 import 'animate.css'
 
@@ -14,19 +13,21 @@ function Home() {
     <>
       <div className='main'>
         <div className='Box' >
-          <div className='navbar'>
-            <p className='navbar-options'>Inicio</p>
-            <p className='navbar-options'>Portifólio</p>
-            <div className='SearchPosition'>
-              <p className='contato-position'>Contato</p>
+          <div className='navbar '>
+            <p className='navbar-options animate__animated animate__zoomIn'>Inicio</p>
+            <p className='navbar-options animate__animated animate__zoomIn'>Portifólio</p>
+            <div className='SearchPosition animate__animated animate__zoomIn'>
+              <p className='contato-position animate__animated animate__zoomIn'>Contato</p>
               <FontAwesomeIcon className='Search' icon={faMagnifyingGlass} ></FontAwesomeIcon>
             </div>
           </div>
+
           <div className='caixaBanner'>
             <img src={Logo} id='logo-banner' alt='logo-ddevs' />
           </div>
+
         </div>
-        <div className='animate__animated animate__zoomIn'>
+        <div id='espaco' className='animate__animated animate__zoomIn'>
           <div className='Caixasobre'>
             <div className='caixaTituloSobre'>
               <h1 className='tituloSobre'><FontAwesomeIcon id='caretIcon' icon={faCaretDown} />Sobre nós</h1>
@@ -46,9 +47,7 @@ function Home() {
               </p>
             </div>
           </div>
-          <div className='arrowIconBox'>
-            <FontAwesomeIcon id='arrowIcon' icon={faArrowUpShortWide} />
-          </div>
+
         </div>
 
       </div>
@@ -78,13 +77,13 @@ function Home() {
 
         <nav className="links">
 
-<label for="rd_programa1">Programa 1</label>
-<label for="rd_programa2">Programa 2</label>
-<label for="rd_programa3">Programa 3</label>
-<label for="rd_programa4">Programa 4</label>
-<label for="rd_programa5">Programa 5</label>
+          <label for="rd_programa1">Programa 1</label>
+          <label for="rd_programa2">Programa 2</label>
+          <label for="rd_programa3">Programa 3</label>
+          <label for="rd_programa4">Programa 4</label>
+          <label for="rd_programa5">Programa 5</label>
 
-</nav>
+        </nav>
       </div>
     </>
   );
