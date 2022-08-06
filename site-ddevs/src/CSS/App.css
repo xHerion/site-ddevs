@@ -20,10 +20,6 @@
  
 }
 
-
-
-
-
 .navbar {
   background-color: black;
   width: 100%;
@@ -38,7 +34,7 @@
 }
 
 .navbar-options {
-  padding-left: 6%;
+  margin-left: 6%;
   color: white;
   transition: 300ms;
 
@@ -46,7 +42,7 @@
 
 .contato-position {
   color: white;
-  padding-right: 2%;
+  margin-right: 2%;
   transition: 300ms;
 
 }
@@ -89,8 +85,6 @@
 
 }
 
-
-
 .caixaTituloSobre{
   width: 100%;
   display: flex;
@@ -120,7 +114,6 @@
   height: 300px;
   
 }
-
 
 .Caixasobre:hover {
   transition: 300ms;

@@ -7,9 +7,6 @@ import {
   faCaretDown
 } from '@fortawesome/free-solid-svg-icons'
 
-
-
-
 function App() {
   return (
     <div className='body'>
@@ -26,13 +23,12 @@ function App() {
         <div className='caixaBanner'>
           <img src={Logo} className='logo-banner' alt='logo-ddevs' />
         </div>
-
       </div>
 
       <div className='Caixasobre'>
-      <div className='caixaTituloSobre'>
-        <h1 className='tituloSobre'><FontAwesomeIcon id='caretIcon' icon={faCaretDown} />Sobre nos</h1>
-      </div>
+        <div className='caixaTituloSobre'>
+          <h1 className='tituloSobre'><FontAwesomeIcon id='caretIcon' icon={faCaretDown} />Sobre nos</h1>
+        </div>
         <div className='caixaTexto'>
           <p className='sobre'>
             Lorem ipsum dolor sit amet,
