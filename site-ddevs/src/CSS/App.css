@@ -1,24 +1,30 @@
-.body{
-  background-image: url('../banner1.png');
-  height: 1200px;
-}
-
 .Box {
- width: 100%;
- height: 396px;
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-
+  width: 100%;
+  height: 396px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.logo-banner{
-  height: 330px;
-  width: 330px;
+.caixaBanner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.navbar{
+.logo-banner {
+  max-width: 230px;
+  width: 100%;
+  cursor: pointer;
+ 
+}
+
+
+
+
+
+.navbar {
   background-color: black;
   width: 100%;
   height: 55px;
@@ -27,60 +33,123 @@ align-items: center;
   position: fixed;
   top: 3%;
   opacity: 0.8;
+  border-top: 1px white solid;
+  border-bottom: 1px white solid;
 }
 
-.navbar-options{
-  padding-left: 7%;
+.navbar-options {
+  padding-left: 6%;
   color: white;
   transition: 300ms;
+
 }
 
-.contato-position{
+.contato-position {
   color: white;
   padding-right: 2%;
   transition: 300ms;
+
 }
 
-.contato-position:hover{
+.contato-position:hover {
   transition: 300ms;
   color: #FF541E;
   cursor: pointer;
 }
 
-.navbar-options:hover{
+.navbar-options:hover {
   transition: 300ms;
   color: #FF541E;
   cursor: pointer;
 }
 
-.Search{
+.Search {
   color: white;
-  background-color:#393E46;
-  padding: 18px;
+  background-color: #393E46;
+  padding: 14px;
   border-radius: 80px;
   font-size: 30px;
   transition: 400ms;
-  -webkit-box-shadow: 1px 3px 19px 3px rgba(0,0,0,0.42); 
-  box-shadow: 1px 3px 19px 3px rgba(0,0,0,0.42);
-  
+  -webkit-box-shadow: 1px 3px 19px 3px rgba(0, 0, 0, 0.42);
+  box-shadow: 1px 3px 19px 3px rgba(0, 0, 0, 0.42);
+
 }
 
-.Search:hover{
+.Search:hover {
   transition: 300ms;
-
   cursor: pointer;
   opacity: 0.7;
 }
 
-.SearchPosition{
+.SearchPosition {
   display: flex;
   width: -webkit-fill-available;
-  align-items: center;
   justify-content: flex-end;
-  padding-right: 8%;
+  padding-right: 2%;
+
 }
 
-.image{
+
+
+.caixaTituloSobre{
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tituloSobre {
+  font-size: x-large;
+  color: white;
+  display: flex;
+  justify-content: center;
+  opacity: 0.7;
+  border-top: 1px white solid;
+  width: 50%;
+  margin-top: 0;
   
+}
+
+.Caixasobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  transition: 300ms;
+  font-size: 0;
+  color: white;
+  height: 300px;
+  
+}
+
+
+.Caixasobre:hover {
+  transition: 300ms;
+  font-size: large;
+  background-color: black;
+  -webkit-box-shadow: 0px 10px 13px -7px #393E46, -1px 9px 12px -9px #393E46; 
+  box-shadow: 0px 10px 13px -7px #393E46, -1px 9px 12px -9px #393E46;
+  opacity: 0.7;
+  padding-top: 3%;
+}
+
+.sobre {
+  transition: 200ms;
+  background-color: black;
+  opacity: 0.7;
+  
+}
+
+.caixaTexto{
+  max-width: 70%;
+  height: 100%;
+}
+
+#caretIcon{
+  margin-right: 8px;
+  margin-top: 5px;
+
+}
+
+.SetaIcon{
+  margin: 20px;
 }
