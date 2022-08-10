@@ -1,0 +1,100 @@
+.caixaTituloProjetos {
+    display: flex;
+    justify-content: center;
+}
+
+#tituloProjetos {
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.links {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    font-weight: bold;
+}
+
+.links label {
+    padding: 10px 0;
+    flex-grow: 1;
+    cursor: pointer;
+    transition: all .4s;
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 100%;
+    color: #fff;
+    background-color: black;
+    opacity: 0.8;
+
+}
+
+.links label:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.scroll {
+    display: flex;
+    width: 99vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sections {
+    transition: all .4s;
+    font-weight: bold;
+    font-size: 200px;
+}
+
+input {
+    display: none;
+}
+
+.bloco {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+#programa1 {
+    background-color: #7fbd42;
+}
+
+#programa2 {
+    background-color: #69f;
+}
+
+#programa3 {
+    background-color: #faa;
+}
+
+#programa4 {
+    background-color: #aaa;
+}
+
+
+#programa5 {
+    background-color: #414950;
+}
+
+
+
+#rd_programa2:checked~.sections {
+    margin-top: -100vh;
+}
+
+#rd_programa3:checked~.sections {
+    margin-top: -200vh;
+}
+
+#rd_programa4:checked~.sections {
+    margin-top: -300vh;
+}
+
+#rd_programa5:checked~.sections {
+    margin-top: -400vh;
+}
