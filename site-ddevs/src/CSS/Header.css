@@ -48,20 +48,7 @@
   
   }
   
-  .contato-position:hover {
-    transition: 300ms;
-    color: #FF541E;
-    cursor: pointer;
-  }
-  
-  .navbar-options:hover {
-    transition: 300ms;
-    color: #FF541E;
-    cursor: pointer;
-  }
-  
-  
-  
+
   .Search {
     color: white;
     background-color: #393E46;
@@ -79,6 +66,11 @@
     cursor: pointer;
     opacity: 0.7;
   }
+
+  .Search:active{
+    font-size: 25px;
+    transition: 400ms;
+  }
   
   .SearchPosition {
     display: flex;
@@ -87,3 +79,20 @@
     padding-right: 2%;
   
   }
+
+  
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 100ms;
+}
+
+a:hover{
+  color: #FF541E;
+}
+
+a:active{
+  font-size: smaller;
+  transition: 300ms;
+}

@@ -17,16 +17,13 @@
   }
   
   .Caixasobre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: inline-table;
     width: 100%;
     transition: 300ms;
     font-size: 0%;
     color: white;
-    height: 300px;
-  
-  
+    min-height: 300px;
+    
   }
   
   .Caixasobre:hover {
@@ -38,13 +35,7 @@
     opacity: 0.7;
     padding-top: 3%;
   }
-  
-  .sobre {
-    transition: 100ms;
-    background-color: black;
-    opacity: 0.7;
-  
-  }
+
   
   #espaco {
     margin-bottom: 200px;
@@ -52,8 +43,13 @@
   }
   
   .caixaTexto {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .sobre{
     max-width: 70%;
-    height: 100%;
   }
   
   #caretIcon {

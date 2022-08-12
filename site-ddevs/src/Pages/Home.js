@@ -1,25 +1,21 @@
 import React from "react";
 import "animate.css";
 import Header from "../components/Header";
-import Portifolio from "../components/Portifolio";
 import Sobre from "../components/Sobre";
+import Portifolio from "../components/Portifolio";
+import '../CSS/Css_pages/home.css'
 
-function Index() {
-
+const Index = () => {
   return (
-    <>
-      <div className="main">
-        <div id="header">
-          <Header />
-        </div>
-        <div id="sobre">
-          <Sobre />
-        </div>
-        <div id="portifolio">
-          <Portifolio />
-        </div>
+    <div className="main">
+      <div id="header">
+        <Header />
       </div>
-    </>
+      <div id="sobre">
+        <Sobre />
+      </div>
+      <Portifolio />
+    </div>
   );
 }
 
