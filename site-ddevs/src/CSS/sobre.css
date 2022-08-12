@@ -19,7 +19,7 @@
 .Caixasobre {
   display: inline-table;
   width: 100%;
-  transition: 600ms;
+  transition: 200ms;
   color: white;
   text-align: center;
   font-size: 0;
@@ -27,18 +27,18 @@
 }
 
 .Caixasobre:hover {
-  transition: 300ms;
+  transition: 200ms;
   background-color: black;
   opacity: 0.7;
   padding-top: 1%;
 }
 
 #espaco {
-  transition: 300ms;
+  transition: 400ms;
 }
 
 #espaco:hover{
-  transition: 500ms;
+  transition: 300ms;
   background-color: black;
   opacity: 0.7;
 }

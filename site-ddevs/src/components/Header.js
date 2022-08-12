@@ -16,7 +16,7 @@ const Header = () => {
         <p className='navbar-options animate__animated animate__zoomIn' ><a href='#'>Portifólio</a></p>
         <div className='SearchPosition animate__animated animate__zoomIn'>
           <p className='contato-position animate__animated animate__zoomIn'><a href='#'>Contato</a></p>
-          <a href='#'><FontAwesomeIcon className='Search' icon={faMagnifyingGlass} ></FontAwesomeIcon></a>
+          <a href='#' id='searchIconBox'><FontAwesomeIcon className='Search' icon={faMagnifyingGlass} ></FontAwesomeIcon></a>
         </div>
       </div>
       <div>
