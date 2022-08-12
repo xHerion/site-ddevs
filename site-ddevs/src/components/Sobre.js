@@ -18,7 +18,7 @@ function Sobre() {
         var icon = document.querySelector('.iconUp');
         var espaco = document.querySelector('#espaco')
 
-        //texto sobre
+       
 
         sobre.addEventListener('mousemove', () => {
             sobre.style.fontSize = 'large'
@@ -79,7 +79,7 @@ function Sobre() {
                     </div>
 
                 </div>
-                <div className='iconUp'><a>
+                <div className='iconUp'><a className='aIcon'>
                     <FontAwesomeIcon icon={faCaretUp} /></a>
                 </div>
             </div>
