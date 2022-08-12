@@ -1,80 +1,78 @@
 .caixaTituloSobre {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .tituloSobre {
-    font-size: x-large;
-    color: white;
-    display: flex;
-    justify-content: center;
-    opacity: 0.7;
-    border-top: 1px white solid;
-    width: 50%;
-    margin-top: 0;
-  
-  }
-  
-  .Caixasobre {
-    display: inline-table;
-    width: 100%;
-    transition: 300ms;
-    font-size: 0%;
-    color: white;
-    min-height: 300px;
-    
-  }
-  
-  .Caixasobre:hover {
-    transition: 300ms;
-    font-size: large;
-    background-color: black;
-    -webkit-box-shadow: 0px 10px 13px -7px #393E46, -1px 9px 12px -9px #393E46;
-    box-shadow: 0px 10px 13px -7px #393E46, -1px 9px 12px -9px #393E46;
-    opacity: 0.7;
-    padding-top: 3%;
-  }
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
-  
-  #espaco {
-    margin-bottom: 200px;
-    margin-top: 50px;
-  }
-  
-  .caixaTexto {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-  }
+.tituloSobre {
+  font-size: x-large;
+  color: white;
+  display: flex;
+  justify-content: center;
+  opacity: 0.7;
+  border-top: 1px white solid;
+  width: 50%;
+  margin-top: 0;
 
-  .sobre{
-    max-width: 70%;
-  }
+}
+
+.Caixasobre {
+  display: inline-table;
+  width: 100%;
+  transition: 600ms;
+  color: white;
+  text-align: center;
+  font-size: 0;
+  padding-bottom: 5%;
+}
+
+.Caixasobre:hover {
+  transition: 500ms;
+  background-color: black;
+  opacity: 0.7;
+  padding-top: 3%;
+}
+
+#espaco {
+  transition: 300ms;
+}
+
+#espaco:hover{
+  transition: 500ms;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.caixaTexto {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.sobre {
+  max-width: 70%;
+  transition: 100ms;
+}
+
+#caretIcon {
+  margin-right: 8px;
+  margin-top: 5px;
   
-  #caretIcon {
-    margin-right: 8px;
-    margin-top: 5px;
-  
-  }
-  
-  .SetaIcon {
-    margin: 20px;
-    color: #fff;
-  
-  }
-  
-  .arrowIconBox {
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    font-size: 0.1px;
-    transition: 300ms;
-    padding-bottom: 200px;
-  }
-  
-  .arrowIconBox:hover {
-    font-size: 100%;
-    transition: 300ms;
-  }
-  
+}
+
+
+.iconUp {
+  display: none;
+  font-size: large;
+  justify-content: center;
+}
+
+.fecha {
+  height: -webkit-fill-available;
+  padding: 50px
+}
+
+.fechaSobre {
+  height: -webkit-fill-available;
+  padding: 50px
+}

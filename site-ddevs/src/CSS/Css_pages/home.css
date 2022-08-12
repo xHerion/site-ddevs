@@ -1,3 +1,18 @@
 .main{
     height: 100vh;
 }
+a {
+    text-decoration: none;
+    color: white;
+    transition: 100ms;
+    cursor: pointer;
+  }
+  
+  a:hover{
+    color: #FF541E;
+  }
+  
+  a:active{
+    font-size: smaller;
+    transition: 300ms;
+  }

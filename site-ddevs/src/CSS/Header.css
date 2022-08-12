@@ -1,10 +1,6 @@
 .Box {
     width: 100%;
-    height: 390px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
   }
   
   .caixaBanner {
@@ -14,17 +10,16 @@
   }
   
   #logo-banner {
-    max-width: 230px;
-    width: 100%;
+    width: 15%;
     cursor: pointer;
     margin-top: 5%;
-  
+    min-width: 150px;
+    display: inline;
   }
   
   .navbar {
     background-color: black;
     width: 100%;
-    height: 55px;
     font-weight: bold;
     display: flex;
     position: fixed;
@@ -82,17 +77,3 @@
 
   
 
-a {
-  text-decoration: none;
-  color: white;
-  transition: 100ms;
-}
-
-a:hover{
-  color: #FF541E;
-}
-
-a:active{
-  font-size: smaller;
-  transition: 300ms;
-}

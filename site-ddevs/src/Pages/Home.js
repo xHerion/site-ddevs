@@ -5,18 +5,15 @@ import Sobre from "../components/Sobre";
 import Portifolio from "../components/Portifolio";
 import '../CSS/Css_pages/home.css'
 
-const Index = () => {
+const Home = () => {
   return (
     <div className="main">
-      <div id="header">
-        <Header />
+      <Header />
+      <Sobre />
+      <div className="closeSobre">    
       </div>
-      <div id="sobre">
-        <Sobre />
-      </div>
-      <Portifolio />
     </div>
   );
 }
 
-export default Index;
+export default Home;

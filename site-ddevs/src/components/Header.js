@@ -19,7 +19,9 @@ const Header = () => {
           <a href='#'><FontAwesomeIcon className='Search' icon={faMagnifyingGlass} ></FontAwesomeIcon></a>
         </div>
       </div>
-      <img src={Logo} id='logo-banner' alt='logo-ddevs' />
+      <div>
+        <a href='#'><img src={Logo} id='logo-banner' alt='logo-ddevs' /></a>
+      </div>
     </div>
   );
 };
