@@ -12,9 +12,17 @@
 #logo-banner {
   width: 20%;
   cursor: pointer;
-  margin-top: 5%;
+  margin-top: 1%;
   min-width: 150px;
   display: inline;
+  transition: 400ms;
+  color: #333;
+  opacity: 0.8;
+}
+
+#logo-banner:hover{
+  transition: 400ms;
+  opacity: 1;
 }
 
 .navbar {
@@ -28,7 +36,8 @@
   padding: 10px 0 10px;
   position: relative;
 }
-.logoBox{
+
+.logoBox {
   position: relative;
 }
 
@@ -79,7 +88,7 @@
   padding-right: 2%;
 }
 
-#searchIconBox{
+#searchIconBox {
   display: flex;
   align-items: center;
 }

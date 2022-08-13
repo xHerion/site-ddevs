@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../src/logo/logo_transparent.png'
+import Logo from '../../src/logo/logo_invertido.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faMagnifyingGlass,
