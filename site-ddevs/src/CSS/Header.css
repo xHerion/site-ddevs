@@ -26,6 +26,10 @@
   top: 0;
   opacity: 0.8;
   padding: 10px 0 10px;
+  position: relative;
+}
+.logoBox{
+  position: relative;
 }
 
 .navbar-options {

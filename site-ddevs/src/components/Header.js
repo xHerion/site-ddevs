@@ -19,7 +19,7 @@ const Header = () => {
           <a href='#' id='searchIconBox'><FontAwesomeIcon className='Search' icon={faMagnifyingGlass} ></FontAwesomeIcon></a>
         </div>
       </div>
-      <div>
+      <div className='logoBox'>
         <a href='#'><img src={Logo} id='logo-banner' alt='logo-ddevs' /></a>
       </div>
     </div>
