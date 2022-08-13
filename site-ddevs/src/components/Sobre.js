@@ -14,7 +14,6 @@ function Sobre() {
     useEffect(() => {
         var sobre = document.querySelector('.Caixasobre');
         var fecha = document.querySelector('.fecha');
-        var fechaSobre = document.querySelector('.fechaSobre');
         var icon = document.querySelector('.iconUp');
         var espaco = document.querySelector('#espaco')
 
@@ -32,11 +31,6 @@ function Sobre() {
             espaco.style.background = 'none'
         });
 
-        fechaSobre.addEventListener('mousemove', () => {
-            sobre.style.fontSize = '0'
-            icon.style.display = 'none'
-            espaco.style.background = 'none'
-        });
 
         icon.addEventListener('click', () => {
             sobre.style.fontSize = '0'
@@ -83,7 +77,6 @@ function Sobre() {
                     <FontAwesomeIcon icon={faCaretUp} /></a>
                 </div>
             </div>
-            <div className='fechaSobre'></div>
         </div>
     ); 
 }; 
